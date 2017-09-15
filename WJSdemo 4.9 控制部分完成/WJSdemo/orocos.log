@@ -1,0 +1,4 @@
+0.000 [ Info   ][Logger] No ORO_LOGLEVEL environment variable set.
+0.001 [ Info   ][Logger]  OROCOS version '2.7.0'Orocos Logging Activated at level : [ Warning] ( 4 ) 
+0.001 [ Info   ][Logger] Reference System Time is : 123555037932461 ticks ( 123555 seconds ).
+0.001 [ Info   ][Logger] Logging is relative to this time.

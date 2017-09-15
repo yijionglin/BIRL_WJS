@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5E1C10DE-3D8E-4C56-8E4F-D302DCB60013}</ProjectGuid>
+    <RootNamespace>WJSdemo</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Bzr.hpp" />
+    <ClInclude Include="BzrInterface.hpp" />
+    <ClInclude Include="Bzr_types.hpp" />
+    <ClInclude Include="ChildDlgA1.h" />
+    <ClInclude Include="ChildDlgA11.h" />
+    <ClInclude Include="ChildDlgA12.h" />
+    <ClInclude Include="ChildDlgA13.h" />
+    <ClInclude Include="ChildDlgA14.h" />
+    <ClInclude Include="ChildDlgA2.h" />
+    <ClInclude Include="ChildDlgA3.h" />
+    <ClInclude Include="ChildDlgA4.h" />
+    <ClInclude Include="ChildDlgB1.h" />
+    <ClInclude Include="ChildDlgB2.h" />
+    <ClInclude Include="ChildDlgB3.h" />
+    <ClInclude Include="ChildDlgB4.h" />
+    <ClInclude Include="CNCInterface.hpp" />
+    <ClInclude Include="Configuration.h" />
+    <ClInclude Include="CutLeadLine.h" />
+    <ClInclude Include="GeomClose.h" />
+    <ClInclude Include="GEOMELE.h" />
+    <ClInclude Include="GeomForCut.h" />
+    <ClInclude Include="GlobalSetting.h" />
+    <ClInclude Include="ReadTXTData.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="WJSCNCInterface.h" />
+    <ClInclude Include="WJSdemo.h" />
+    <ClInclude Include="WJSdemoDlg.h" />
+    <ClInclude Include="WJSOpenGL.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BzrInterface.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="ChildDlgA1.cpp" />
+    <ClCompile Include="ChildDlgA11.cpp" />
+    <ClCompile Include="ChildDlgA12.cpp" />
+    <ClCompile Include="ChildDlgA13.cpp" />
+    <ClCompile Include="ChildDlgA14.cpp" />
+    <ClCompile Include="ChildDlgA2.cpp" />
+    <ClCompile Include="ChildDlgA3.cpp" />
+    <ClCompile Include="ChildDlgA4.cpp" />
+    <ClCompile Include="ChildDlgB1.cpp" />
+    <ClCompile Include="ChildDlgB2.cpp" />
+    <ClCompile Include="ChildDlgB3.cpp" />
+    <ClCompile Include="ChildDlgB4.cpp" />
+    <ClCompile Include="CNCInterface.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Configuration.cpp" />
+    <ClCompile Include="CutLeadLine.cpp" />
+    <ClCompile Include="GeomClose.cpp" />
+    <ClCompile Include="GEOMELE.cpp" />
+    <ClCompile Include="GeomForCut.cpp" />
+    <ClCompile Include="ReadTXTData.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="WJSCNCInterface.cpp" />
+    <ClCompile Include="WJSdemo.cpp" />
+    <ClCompile Include="WJSdemoDlg.cpp" />
+    <ClCompile Include="WJSOpenGL.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="WJSdemo.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="res\WJSdemo.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\水射流位图\新建文件夹\35-512.bmp" />
+    <Image Include="..\..\水射流位图\新建文件夹\bitmap1.bmp" />
+    <Image Include="..\..\水射流位图\新建文件夹\bitmap2.bmp" />
+    <Image Include="..\..\水射流位图\新建文件夹\stop.bmp" />
+    <Image Include="..\..\水射流位图\新建文件夹\主轴泵.bmp" />
+    <Image Include="..\..\水射流位图\新建文件夹\动态模拟.bmp" />
+    <Image Include="..\..\水射流位图\新建文件夹\开始加工.bmp" />
+    <Image Include="..\..\水射流位图\新建文件夹\打开文件.bmp" />
+    <Image Include="..\..\水射流位图\新建文件夹\打开文件.png" />
+    <Image Include="..\..\水射流位图\新建文件夹\排样.bmp" />
+    <Image Include="..\..\水射流位图\新建文件夹\暂停.bmp" />
+    <Image Include="..\..\水射流位图\新建文件夹\水泵.bmp" />
+    <Image Include="..\..\水射流位图\新建文件夹\水阀.bmp" />
+    <Image Include="..\..\水射流位图\新建文件夹\清理.bmp" />
+    <Image Include="..\..\水射流位图\新建文件夹\砂阀.bmp" />
+    <Image Include="..\..\水射流位图\新建文件夹\继续.bmp" />
+    <Image Include="..\..\水射流位图\新建文件夹\轮廓提取.bmp" />
+    <Image Include="..\..\水射流位图\新建文件夹\高压气阀.bmp" />
+    <Image Include="..\新建文件夹\35-512.bmp" />
+    <Image Include="..\新建文件夹\bitmap1.bmp" />
+    <Image Include="..\新建文件夹\Bitmap\35-512.png" />
+    <Image Include="..\新建文件夹\Bitmap\green主轴泵.bmp" />
+    <Image Include="..\新建文件夹\Bitmap\green水泵.bmp" />
+    <Image Include="..\新建文件夹\Bitmap\green水阀.bmp" />
+    <Image Include="..\新建文件夹\Bitmap\green砂阀.bmp" />
+    <Image Include="..\新建文件夹\Bitmap\green高压气阀.bmp" />
+    <Image Include="..\新建文件夹\Bitmap\red主轴泵.bmp" />
+    <Image Include="..\新建文件夹\Bitmap\red水泵.bmp" />
+    <Image Include="..\新建文件夹\Bitmap\red水阀.bmp" />
+    <Image Include="..\新建文件夹\Bitmap\red砂阀.bmp" />
+    <Image Include="..\新建文件夹\Bitmap\red高压气阀.bmp" />
+    <Image Include="..\新建文件夹\Bitmap\可视化模拟开启.bmp" />
+    <Image Include="..\新建文件夹\stop.bmp" />
+    <Image Include="..\新建文件夹\主轴泵.bmp" />
+    <Image Include="..\新建文件夹\动态模拟.bmp" />
+    <Image Include="..\新建文件夹\开始加工.bmp" />
+    <Image Include="..\新建文件夹\打开文件.bmp" />
+    <Image Include="..\新建文件夹\扫描.bmp" />
+    <Image Include="..\新建文件夹\排样.bmp" />
+    <Image Include="..\新建文件夹\断开.bmp" />
+    <Image Include="..\新建文件夹\暂停.bmp" />
+    <Image Include="..\新建文件夹\水泵.bmp" />
+    <Image Include="..\新建文件夹\水阀.bmp" />
+    <Image Include="..\新建文件夹\清理.bmp" />
+    <Image Include="..\新建文件夹\砂阀.bmp" />
+    <Image Include="..\新建文件夹\继续.bmp" />
+    <Image Include="..\新建文件夹\轮廓提取.bmp" />
+    <Image Include="..\新建文件夹\连接1.bmp" />
+    <Image Include="..\新建文件夹\高压气阀.bmp" />
+    <Image Include="res\icon1.ico" />
+    <Image Include="res\WJSdemo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="Bzr.lib" />
+    <Library Include="BzrInterface.lib" />
+    <Library Include="cncInterface.lib" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="WJSdemo.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

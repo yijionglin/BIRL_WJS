@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="WJSdemo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WJSdemoDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ChildDlgA1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ChildDlgA2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ChildDlgA3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ChildDlgA4.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ChildDlgB1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ChildDlgB2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ChildDlgB3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ChildDlgA11.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ChildDlgA12.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ChildDlgA13.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ChildDlgA14.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CutLeadLine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GeomClose.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GEOMELE.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GeomForCut.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ChildDlgB4.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WJSOpenGL.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadTXTData.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Configuration.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Bzr.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Bzr_types.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BzrInterface.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CNCInterface.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WJSCNCInterface.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalSetting.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WJSdemo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WJSdemoDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildDlgA1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildDlgA2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildDlgA3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildDlgA4.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildDlgB1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildDlgB2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildDlgB3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildDlgA11.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildDlgA12.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildDlgA13.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildDlgA14.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CutLeadLine.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GeomClose.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GEOMELE.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GeomForCut.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildDlgB4.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WJSOpenGL.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ReadTXTData.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Configuration.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WJSCNCInterface.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BzrInterface.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CNCInterface.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="WJSdemo.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\WJSdemo.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\WJSdemo.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\icon1.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\水射流位图\新建文件夹\打开文件.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\水射流位图\新建文件夹\stop.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\水射流位图\新建文件夹\bitmap2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\水射流位图\新建文件夹\打开文件.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\水射流位图\新建文件夹\继续.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\水射流位图\新建文件夹\清理.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\水射流位图\新建文件夹\暂停.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\水射流位图\新建文件夹\bitmap1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\水射流位图\新建文件夹\轮廓提取.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\水射流位图\新建文件夹\排样.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\水射流位图\新建文件夹\35-512.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\水射流位图\新建文件夹\动态模拟.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\水射流位图\新建文件夹\高压气阀.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\水射流位图\新建文件夹\开始加工.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\水射流位图\新建文件夹\砂阀.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\水射流位图\新建文件夹\水泵.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\水射流位图\新建文件夹\水阀.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\水射流位图\新建文件夹\主轴泵.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\新建文件夹\stop.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\新建文件夹\打开文件.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\新建文件夹\继续.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\新建文件夹\清理.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\新建文件夹\暂停.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\新建文件夹\轮廓提取.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\新建文件夹\排样.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\新建文件夹\35-512.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\新建文件夹\动态模拟.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\新建文件夹\高压气阀.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\新建文件夹\开始加工.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\新建文件夹\砂阀.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\新建文件夹\水阀.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\新建文件夹\主轴泵.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\新建文件夹\水泵.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\新建文件夹\bitmap1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\新建文件夹\断开.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\新建文件夹\连接1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\新建文件夹\扫描.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\新建文件夹\Bitmap\可视化模拟开启.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\新建文件夹\Bitmap\35-512.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\新建文件夹\Bitmap\green高压气阀.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\新建文件夹\Bitmap\green砂阀.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\新建文件夹\Bitmap\green水泵.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\新建文件夹\Bitmap\green水阀.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\新建文件夹\Bitmap\green主轴泵.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\新建文件夹\Bitmap\red高压气阀.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\新建文件夹\Bitmap\red砂阀.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\新建文件夹\Bitmap\red水泵.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\新建文件夹\Bitmap\red水阀.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\新建文件夹\Bitmap\red主轴泵.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="Bzr.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+    <Library Include="BzrInterface.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+    <Library Include="cncInterface.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+  </ItemGroup>
+</Project>

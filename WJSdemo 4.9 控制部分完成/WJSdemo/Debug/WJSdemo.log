@@ -1,0 +1,42 @@
+﻿生成启动时间为 2017/8/30 14:26:05。
+     1>项目“C:\Users\炯\Desktop\WJSdemo 4.8 初步实现三模式转换\WJSdemo\WJSdemo.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\WJSdemo.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ChildDlgA11.cpp
+         ChildDlgA11.cpp
+     1>c:\users\炯\desktop\wjsdemo 4.8 初步实现三模式转换\wjsdemo\childdlga11.cpp(176): warning C4101: “pfadtemph”: 未引用的局部变量
+     1>c:\users\炯\desktop\wjsdemo 4.8 初步实现三模式转换\wjsdemo\childdlga11.cpp(178): warning C4101: “m_ifHvkidClose”: 未引用的局部变量
+     1>c:\users\炯\desktop\wjsdemo 4.8 初步实现三模式转换\wjsdemo\childdlga11.cpp(169): warning C4715: “CChildDlgA11::ReadDXFandDrawFunc”: 不是所有的控件路径都返回值
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\炯\Desktop\WJSdemo 4.8 初步实现三模式转换\Debug\WJSdemo.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\Users\炯\Desktop\WJSdemo 4.8 初步实现三模式转换\Debug\WJSdemo.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\炯\Desktop\WJSdemo 4.8 初步实现三模式转换\Debug\WJSdemo.lib" /MACHINE:X86 Debug\WJSdemo.res
+         Debug\ChildDlgA1.obj
+         Debug\ChildDlgA11.obj
+         Debug\ChildDlgA12.obj
+         Debug\ChildDlgA13.obj
+         Debug\ChildDlgA14.obj
+         Debug\ChildDlgA2.obj
+         Debug\ChildDlgA3.obj
+         Debug\ChildDlgA4.obj
+         Debug\ChildDlgB1.obj
+         Debug\ChildDlgB2.obj
+         Debug\ChildDlgB3.obj
+         Debug\ChildDlgB4.obj
+         Debug\Configuration.obj
+         Debug\CutLeadLine.obj
+         Debug\GeomClose.obj
+         Debug\GEOMELE.obj
+         Debug\GeomForCut.obj
+         Debug\ReadTXTData.obj
+         Debug\stdafx.obj
+         Debug\WJSCNCInterface.obj
+         Debug\WJSdemo.obj
+         Debug\WJSdemoDlg.obj
+         Debug\WJSOpenGL.obj
+         Bzr.lib
+         BzrInterface.lib
+         cncInterface.lib
+         WJSdemo.vcxproj -> C:\Users\炯\Desktop\WJSdemo 4.8 初步实现三模式转换\Debug\WJSdemo.exe
+     1>已完成生成项目“C:\Users\炯\Desktop\WJSdemo 4.8 初步实现三模式转换\WJSdemo\WJSdemo.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.19
